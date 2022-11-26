@@ -25,7 +25,7 @@ def client():
 def test_health(client):
     response = client.get('/')
     assert response.status_code == 200
-    assert response.json == 'Healthy'
+    assert response.json == 'I might run out of text messages to send you, and I might run out of jokes too. My phone might run out of battery, but my heart will never run out of space for you.'
 
 
 def test_auth(client):
