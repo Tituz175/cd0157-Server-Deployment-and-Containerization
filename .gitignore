@@ -1,6 +1,6 @@
 .DS_Store
-.env*
 .flaskenv
+aws-auth-patch.yml
 *.pyc
 *.pyo
 env/
